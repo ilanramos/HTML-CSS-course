@@ -39,6 +39,7 @@ aside {
   width: 500px;
 }
 
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -156,6 +157,22 @@ a:active {
 .post-img {
   width: 700px;
   height: auto;
+}
+
+nav a:link {
+  /* background-color: blue;
+  margin: 20px;
+  padding: 20px;
+
+  display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
 
 /* Resolving conflicts */
